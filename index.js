@@ -7,7 +7,7 @@ document.getElementById("Decrease").onclick = function(){
 }
 document.getElementById("Reset").onclick = function(){
     counter=0;
-    document.getElementById("Counter").innerHTML = counter;
+    document.getElementById("Counter").innerHTML = 0;
 }
 document.getElementById("Increse").onclick = function(){
     counter+=1;
